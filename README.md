@@ -20,6 +20,11 @@ The code requires a system equiped with:
 - OpenCV 4.3.0
 - CUDA 9.2.88
 
+## To run the code
+make
+
+./test
+
 
 ## File and folder desciption
 There are two .cpp files in our top level directory segmentation.cpp and main.cpp, both are main file and contain entry point to our program:
