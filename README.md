@@ -3,7 +3,7 @@
 This is the repository for the ECE-8780 final project.
 
 ## Data 
-Our code was developed based on the [video](https://drive.google.com/drive/folders/1Tp1WGvC2OOuOI_mL-SOBWsOYOHibuZxo?usp=sharing).
+Our code was developed based on the [video](https://drive.google.com/drive/folders/1zbkJxemim7m4imcDkOlHFMJZmctD_Pv4?usp=sharing).
 
 ## Video demo
 Here is our video processing result.
@@ -26,7 +26,7 @@ make
 ./test
 
 
-## File and folder desciption
+## File and folder description
 There are two .cpp files in our top level directory segmentation.cpp and main.cpp, both are main file and contain entry point to our program:
 - main.cpp: the main file does not include the segmentation algorithm.
 - segmentation.cpp: the main file includes the segmentation algorithm.
