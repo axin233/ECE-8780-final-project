@@ -18,3 +18,4 @@ https://user-images.githubusercontent.com/59490151/116119401-68464500-a68c-11eb-
 ## System Configuration
 The code requires a system equiped with:
 - OpenCV 3.4.0
+- CUDA 9.1
