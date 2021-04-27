@@ -41,8 +41,8 @@ The rest of the folder contains the other files needed to run the respective pro
 Since Clemson Palmetto does not support any video capture or window UI related functions, our code is designed to work on a individual computer for the convenience of demo. You could easily run the code and see some demo images by compile and run the program. Or, add the video output option from opencv and get a full video output.
 
 To do test on Clemson Palmetto is a bit tricky:
-- 1. Remove any function that is video related, imshow, waitKey, and window functions.
-- 2. The entry loop "while(1)" needs to be changed to a for loop that reads one image at a time.
+1. Remove any function that is video related, imshow, waitKey, and window functions.
+2. The entry loop "while(1)" needs to be changed to a for loop that reads one image at a time.
 
 In our report, we have captured the first 1200 frames from video and upload it to Palmetto for testing. The segmentation.cpp is set to process first 1200 image frames, which means it is designed for testing mainly (you could run the whole video by remove the obvious if statement within the while loop). 
 
